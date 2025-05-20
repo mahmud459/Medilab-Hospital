@@ -1,0 +1,127 @@
+:root{
+    --back-suptal:#f1f7fc;
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+  @media (max-width:768px){
+    .my-container{
+    padding: 1rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+}
+
+}
+@media (min-width:768px){
+    .my-container{
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+    }
+   
+}
+/* Container */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    /* max-width: 1200px; */
+    width: 100%;
+    margin:60px  auto;
+  }
+  
+  /* Info Section */
+  .info-section {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--heading-color);
+  }
+  
+  .info-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .info-item i {
+    font-size: 33px;
+    color: var(--primary-color);
+  }
+  
+  /* Form Section */
+  .form-section {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .form-row input {
+      width: 100%;
+    }
+  }
+  

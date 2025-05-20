@@ -1,0 +1,97 @@
+:root{
+    --back-suptal:#f1f7fc;
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+  @media (max-width:768px){
+    .my-container{
+    padding: 1rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+}
+.img-cont{
+    width: 100%;
+}
+}
+@media (min-width:768px){
+    .my-container{
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+    }
+    .img-cont{
+    flex :calc( 25% - 5px);
+
+    }
+}
+.gelery-imgs-container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap:  5px;
+padding: 20px;
+}
+.img-cont{
+    height: 270px;
+    border-radius: 8px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #2c4964;
+}
+.div-img1{
+    background-image:url(./assets/img-fail/gallery-1.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img2{
+    background-image:url(./assets/img-fail/gallery-2.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img3{
+    background-image:url(./assets/img-fail/gallery-3.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img4{
+    background-image:url(./assets/img-fail/gallery-4.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img5{
+    background-image:url(./assets/img-fail/gallery-5.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img6{
+    background-image:url(./assets/img-fail/gallery-6.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img7{
+    background-image:url(./assets/img-fail/gallery-7.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.div-img8{
+    background-image:url(./assets/img-fail/gallery-8.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+.img-cont:hover{
+    transform: scale(0.95);
+}

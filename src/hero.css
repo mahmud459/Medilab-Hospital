@@ -1,0 +1,125 @@
+:root{
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+/* .my-container{
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+} */
+@media (max-width:768px){
+    .my-container{
+    padding: 1rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+}
+}
+@media (min-width:768px){
+    .my-container{
+        /* padding: 50px; */
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+    }
+}
+.hero-section {
+    padding-top: 100px;
+    height:auto;
+    background-image: url(./assets/img-fail/hero-bg.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.hero-header {
+    padding: 35px 0;
+    color: var(--heading-color);
+}
+
+.hero-header h1 {
+    font-size: 2.5rem;
+}
+
+.hero-header p {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.hero-cards {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+    
+    margin: 0;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0 ,0.2);
+}
+.hero-cards .card-2 span i, .card-3 span i, .card-4 span i{
+    color: var(--tham-color);
+    font-size: 40px;
+}
+
+.card-1 {
+    background-color: var(--primary-color);
+    color: var(--whait-color);
+    flex-basis: 400px;
+    /* flex-grow: 1; */
+    transition: 0.4s ease;
+    
+}
+.card-1 h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.card-1 button{
+    width: 120px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:#fff;
+    border: none;
+    font-size: 15px;
+}
+
+.card-2,
+.card-3,
+.card-4 {
+    flex: 1 1 200px;
+    text-align: center;
+    opacity: 0.8;
+    color: var(--heading-color);
+    background-color: var(--whait-color);
+     height: 340px;
+     transition: 0.4s ease;
+}
+
+
+@media (max-width: 768px) {
+    .hero-cards {
+        flex-direction: column; 
+    }
+
+    .hero-cards .card {
+        flex-basis: 100%;
+    }
+    .card-1{
+        flex-basis: 100%;
+    }
+}

@@ -1,0 +1,118 @@
+:root{
+    --back-suptal:#f1f7fc;
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+  @media (max-width:768px){
+    .my-container{
+    padding: 1rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+}
+}
+@media (min-width:768px){
+    .my-container{
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+    }
+}
+a{
+    color: inherit;
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+}
+@media (min-width:768px){
+    .about-content{
+        padding: 120px 0;
+        
+    }
+    
+}
+@media (max-width:768px){
+    .about-content .left-content{
+        height: 300px;
+        order: 2;
+}
+.about-content{
+    margin-top: 70px;
+    text-align: center;
+}
+.about-info .info{
+    margin: 15px;
+}
+}
+.about-content .left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content .left-content span{
+    font-size: 70px;
+    color: var(--primary-color);
+}
+.about-content .left-content, .rghit-content{
+    flex: 1 1 40%;
+    box-sizing: border-box;
+    color: var(--heading-color);
+}
+.about-content .left-content{
+        background-image: url(./assets/img-fail/about.jpg);
+    background-size: cover;
+}
+.about-content .rghit-content h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+/* .about-content .rghit-content{
+} */
+.about-content .rghit-content .health {
+    display: flex;
+    align-items: center;
+    padding: 40px 40px 0 0;
+}
+.about-content .rghit-content .health span{
+    padding: 0px 15px 0 0;
+    font-size: 35px;
+    color: var(--primary-color);
+}
+
+ .about-info{
+    min-height: 300px;
+    background-color:var(--back-suptal) ;
+    display: flex;
+}
+.about-info .info-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.about-info .info{
+    background-color: var(--whait-color);
+    color: var(--heading-color);
+    height: 150px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    box-shadow: 0px 8px 25px rgb(0, 0, 0 ,0.2);
+}
+.about-info .info span{
+    margin-top: -50px;
+    font-size: 40px;
+    color: var(--primary-color);
+}

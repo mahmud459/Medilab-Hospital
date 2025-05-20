@@ -1,0 +1,70 @@
+/* General layout */
+/* .top-header, .center-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #f0f0f0;
+    width: 100%;
+  } */
+  
+  /* Top bar (contact/social) */
+  /* .top-header {
+    background-color: #e6f7ff;
+    font-size: 14px;
+  } */
+  
+  /* Center header (nav) */
+  /* .center-header {
+    background-color: #c0f2cc;
+    transition: top 0.3s;
+  } */
+  
+  /* Fixed position on scroll */
+  /* .fixed-nav {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  } */
+  
+  /* Nav links */
+  /* .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  } */
+  
+  /* Button */
+  /* .button {
+    background-color: #2eaf7d;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+  } */
+  
+  /* Responsive */
+  /* @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  }
+  .top-header-wrapper {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .top-header-wrapper.hide {
+    display: none;
+  }
+  
+  .top-header-wrapper.show {
+    display: block;
+  } */

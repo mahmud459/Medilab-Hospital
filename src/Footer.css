@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --back-suptal:#f1f7fc;
+    --tham-color:#007aff;
+    --primary-color:#1977cc;
+    --whait-color:#fff;
+    --heading-color:#2c4964;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --heading-font: "Poppins", sans-serif;
+      --nav-font: "Raleway", sans-serif;
+  }
+  /* Basic styles */
+  .footer-background{
+
+      background-color: var(--back-suptal);
+  }
+.footer {
+    padding: 40px 20px 20px;
+    color:var(--heading-color);
+    width: 100%;
+  }
+  
+  /* .footer .container {
+    max-width: 1200px;
+    margin: auto;
+  } */
+  
+  /* .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  } */
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .footer-about {
+    flex: 1 1 22%;
+  }
+  
+  .logo .sitename {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--heading-color);
+    text-decoration: none;
+  }
+  
+  .footer-contact p {
+    margin: 18px 0;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: var(--heading-color);
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    flex: 1 1 150px;
+  }
+  
+  .footer-links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin: 15px 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #444;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  
+  .credits {
+    font-size: 13px;
+    color: #777;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-row {
+      flex-direction: column;
+    }
+  
+    .footer-about,
+    .footer-links {
+      flex: 1 1 100%;
+    }
+  
+    .social-links {
+      margin-top: 10px;
+    }
+  }
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:var(--primary-color);
+    color: white;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .scroll-top:hover {
+    background-color: #0056b3;
+  }
+  
+  
