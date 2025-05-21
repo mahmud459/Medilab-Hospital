@@ -10,7 +10,7 @@ function About (){
                     </div>
                 </div>
                 <div className="rghit-content">
-                    <h1>About Us</h1>
+                    <h1>About Uss</h1>
                     <p>Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.</p>
                     <div className="health">
                         <div><span><i class="fa-solid fa-kit-medical"></i></span></div>

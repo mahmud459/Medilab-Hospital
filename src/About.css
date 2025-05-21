@@ -34,9 +34,9 @@ a{
 }
 @media (min-width:768px){
     .about-content{
-        padding: 120px 0;
+        padding: 120px 0 ;
         
-    }
+    } 
     
 }
 @media (max-width:768px){
