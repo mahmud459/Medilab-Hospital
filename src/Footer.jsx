@@ -76,7 +76,7 @@ function FooterSection () {
 <div class="container copyright">
   <p>© <strong class="sitename">Medilab</strong> All Rights Reserved</p>
   <div class="credits">
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> |
+    Designed by <a href="https://mahmud459.github.io/Medilab-Hospital/">Mahmud Mari</a> |
     Distributed by <a href="https://themewagon.com">ThemeWagon</a>
   </div>
 </div>
